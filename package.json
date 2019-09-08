@@ -1,0 +1,20 @@
+{
+  "name": "proyecto1",
+  "version": "1.0.0",
+  "description": "Project of copying a web page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://javier_carpio@bitbucket.org/javier_carpio/proyecto1.git"
+  },
+  "author": "JavierCarpio",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/javier_carpio/proyecto1#readme",
+  "dependencies": {
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.8"
+  }
+}
