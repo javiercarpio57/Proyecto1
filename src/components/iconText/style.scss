@@ -1,0 +1,12 @@
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('/src/fonts/Gotham-Font/GothamBold.ttf') format('truetype')
+}
+
+.gothamText {
+    font-family: 'Gotham';
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 10px;
+}

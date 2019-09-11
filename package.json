@@ -4,7 +4,9 @@
   "description": "Project of copying a web page",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack",
+    "start": "webpack-dev-server --open",
+    "dev": "webpack --watch --open"
   },
   "repository": {
     "type": "git",
@@ -14,7 +16,34 @@
   "license": "ISC",
   "homepage": "https://bitbucket.org/javier_carpio/proyecto1#readme",
   "dependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-eslint": "^10.0.3",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.2.0",
+    "cssnano": "^4.1.10",
+    "eslint": "^6.3.0",
+    "eslint-config-react": "^1.1.7",
+    "eslint-loader": "^3.0.0",
+    "eslint-plugin-react": "^7.14.3",
+    "file-loader": "^4.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.12.0",
+    "postcss-import": "^12.0.1",
+    "postcss-preset-env": "^6.7.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.0",
+    "sugarss": "^2.0.0",
+    "svg-inline-loader": "^0.8.0",
     "webpack": "^4.39.3",
-    "webpack-cli": "^3.3.8"
+    "webpack-cli": "^3.3.8",
+    "webpack-dev-server": "^3.8.0"
+  },
+  "devDependencies": {
+    "postcss-loader": "^3.0.0",
+    "postcss-plugin": "^1.0.0"
   }
 }
