@@ -14,7 +14,7 @@ export default class App extends React.Component {
                         <Image twitter={"true"} source={path.resolve("./src/images/twitter.svg")}/>
                         <div className="iconWithText">
                             <Image source={path.resolve("./src/images/wood-bird-house.svg")}/>
-                            <IconText text={"Home"}/>
+                            <IconText selected={"true"} text={"Home"}/>
                         </div>
                         <div className="iconWithText">
                             <Image source={path.resolve("./src/images/hashtag.svg")}/>

@@ -4,12 +4,19 @@ import './style.scss'
 
 export default class IconText extends React.Component {
     render () {
+        var clase = "gothamText"
+
+        if (this.props.selected) {
+            clase += " selected"
+        }
+
         return (
-            <h2 className="gothamText">{this.props.text}</h2>
+            <h2 className={clase}>{this.props.text}</h2>
         )
     }
 }
 
 IconText.propTypes = {
-    text: PropTypes.string
+    text: PropTypes.string,
+    selected: PropTypes.string
 }
