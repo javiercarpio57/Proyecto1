@@ -1,4 +1,4 @@
-# Proyecto1 - Copying the frontend of a existing webpage.
+# Project 1 - Copying the frontend of a existing webpage.
 
 ## Description
 
