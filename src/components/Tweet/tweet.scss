@@ -1,0 +1,139 @@
+$trasparency: 0.08;
+$lineColor: black;
+
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('/src/fonts/SegoeUI/Segoe UI (1).ttf') format('truetype')
+}
+
+.photo {
+    max-width: 49px;
+    max-height: 49px;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+.flex {
+    display: flex;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.tweet {
+    padding: 10px;
+    cursor: pointer;
+    background-color: white;
+    border-bottom: 1px solid rgba($color: $lineColor, $alpha: $trasparency);
+}
+
+.tweet:hover {
+    background-color: rgb(245, 248, 250);
+}
+
+.photoSpace {
+    max-width: 49px;
+}
+
+.boxSizing {
+    box-sizing: border-box;
+}
+
+.margin {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.paddingSides {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.paddinBottom {
+    padding-bottom: 10px;
+}
+
+span {
+    font-family: "Segoe UI";
+    line-height: 1.3125;
+}
+
+span#name {
+    font-family: "Segoe UI Bold";
+    letter-spacing: -0.5px;
+}
+
+span#text {
+    font-size: 15px;
+}
+
+.negrita {
+    font-weight: 1000;
+    letter-spacing: -0.5px;
+    font-size: 16.5px;
+}
+
+.username {
+    letter-spacing: -0.5px;
+    margin-left: 5px;
+}
+
+.gray {
+    color: rgb(101, 119, 134);
+    font-size: 16.2px;
+}
+
+.dot {
+    position: relative;
+    top: -5px;
+}
+
+.content {
+    max-height: 19.2px;
+    margin-bottom: 7px;
+}
+
+.textContent {
+    color:rgb(20, 23, 26);
+}
+
+.data {
+    margin-top: 10px;
+}
+
+.icons {
+    filter: invert(47%) sepia(11%) saturate(752%) hue-rotate(165deg) brightness(93%) contrast(83%);
+}
+
+.dataBox {
+    height: 19.2px;
+    width: 97px;
+}
+
+.iconBox {
+    padding-right: 10px;
+}
+
+.comment:hover {
+    filter: invert(65%) sepia(46%) saturate(3195%) hue-rotate(179deg) brightness(105%) contrast(91%);
+}
+
+.retweet:hover {
+    filter: invert(82%) sepia(15%) saturate(984%) hue-rotate(94deg) brightness(94%) contrast(85%);
+}
+
+.fav:hover {
+    filter: invert(25%) sepia(100%) saturate(2902%) hue-rotate(326deg) brightness(97%) contrast(82%);
+}
+
+.number {
+    position: relative;
+    top: -2.5px;
+}

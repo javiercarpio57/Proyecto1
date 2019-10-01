@@ -1,25 +1,75 @@
 
-.column {
-    top: 0;
-    float: left;
-    width: 33%;
+$lineColor: black;
+$trasparency: 0.08;
+$centerWidth: 39.75%;
+
+@font-face {
+    font-family: 'Gotham Medium';
+    src: url('../fonts/Gotham-Font/GothamMedium.ttf') format('truetype')
+}
+
+@font-face {
+    font-family: 'Gotham Bold';
+    src: url('../fonts/Gotham-Font/GothamBold.ttf') foaarmat('truetype')
+}
+
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('../fonts/SegoeUI/Segoe_UI.ttf') format('truetype')
+}
+
+@font-face {
+    font-family: 'Segoe UI Bold';
+    src: url('../fonts/SegoeUI/segoe-ui-bold.ttf') format('truetype')
+}
+
+@font-face {
+    font-family: 'Gotham Black';
+    src: url('../fonts/Gotham-Font/Gotham-Black.otf') format("truetype")
+}
+
+.columns {
+    display: flex;
+    flex-direction: row;
+}
+
+.content-justify {
+    justify-content: flex-start;
+}
+
+.content-between {
+    justify-content: space-between;
+}
+
+.align-vertically {
+    align-items: center;
+}
+
+.rows {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 .usingIcon {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    padding-left: 33%;
+    padding-left: 37%;
+
 }
 
 .iconWithText {
     display: flex;
+    vertical-align: middle;
+    box-sizing: border-box;
+    padding-bottom: 5px;
 }
 
 .borderColumn1 {
     float: left;
-    width: 25%;
-    border-right: 1px solid rgba($color: gray, $alpha: 0.25)
+    width: 26.25%;
+    
 }
 
 .tweetBtn {
@@ -29,4 +79,69 @@
     color: white;
     width: 85%;
     height: 48px;
+}
+
+.borderColumn2 {
+    float: left;
+    width: $centerWidth;
+    border-right: 1px solid rgba($color: $lineColor, $alpha: $trasparency);
+    border-left: 1px solid rgba($color: $lineColor, $alpha: $trasparency);
+}
+
+.borderColumn3 {
+    float: left;
+    width: 26%;
+}
+
+.sticky {
+    position: sticky;
+}
+
+.maxTop {
+    top: 10px;
+}
+
+.up {
+    top: -20px;
+}
+
+.box {
+    box-sizing: border-box;
+    height: 55px;
+    border-bottom: 1px solid rgba($color: $lineColor, $alpha: $trasparency);
+    vertical-align: middle;
+    background: white;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+.add-padding {
+    padding-left: 16.5px;
+    padding-right: 15px;
+}
+
+.input {
+    top: 55px;
+    height: 117.94px;
+    background-color: white;
+    z-index: 1;
+}
+
+.header {
+    z-index: 2;
+}
+
+.emptySpace {
+    height: 10px;
+    background-color: rgb(230, 236, 240);
+}
+
+.inlineBlock {
+    display: block;
+}
+
+.column3Left {
+    margin-left: 28px;
+    margin-top: 5px;
 }

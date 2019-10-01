@@ -1,0 +1,32 @@
+.divInput {
+    background-color: rgb(230, 236, 240);
+    border: none;
+    border-radius: 25px;
+    outline: none;
+    width: 97%;
+    height: 41px;
+    display: flex;
+    flex-direction: row;
+}
+
+input{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-family: "Segoe UI";
+}
+
+.divInput:focus-within {
+    background-color: white;
+    border: 1px rgb(29, 161, 242) solid;
+}
+
+input::placeholder {
+    font-size: 15px;
+}
+
+.lupa {
+    padding: 10px;
+    padding-left: 18px;
+    padding-right: 15px;
+}

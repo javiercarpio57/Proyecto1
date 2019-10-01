@@ -1,17 +1,55 @@
 
 @font-face {
-    font-family: 'Gotham';
+    font-family: 'Gotham Medium';
+    src: url('/src/fonts/Gotham-Font/GothamMedium.ttf') format('truetype')
+}
+
+@font-face {
+    font-family: 'Gotham Bold';
     src: url('/src/fonts/Gotham-Font/GothamBold.ttf') format('truetype')
 }
 
-.gothamText {
-    font-family: 'Gotham';
-    font-size: 20px;
-    font-weight: bold;
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('/src/fonts/SegoeUI/Segoe UI.ttf') format('truetype')
+}
+
+@font-face {
+    font-family: 'Segoe UI Bold';
+    src: url('/src/fonts/SegoeUI/segoe-ui-bold.ttf') format('truetype')
+}
+
+@font-face {
+    font-family: 'Gotham Black';
+    src: url('/src/fonts/Gotham-Font/Gotham-Black.otf') format("truetype")
+}
+
+.Text {
+    font-family: 'Segoe UI Bold';
+    font-size: 18px;
     padding-left: 10px;
+    letter-spacing: 0.1px;
+    margin-top: 8%;
+}
+
+.bold {
+    font-family: 'Gotham Black';
+    font-size: 20px;
     letter-spacing: -1px;
+}
+
+.normal {
+    font-weight: normal;
 }
 
 .selected {
     color: #00aced;
+}
+
+.padding-left {
+    padding-left: 0.62em;
+}
+
+.div {
+    height: 50px;
 }
