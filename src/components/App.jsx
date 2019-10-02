@@ -7,6 +7,7 @@ import Tweet from './Tweet/Tweet.jsx'
 import Input from './Input/Input.jsx'
 import TextField from './TextField/TextField.jsx'
 import Tendencia from './Tendencia/Tendencia.jsx'
+import Follow from './Follow/Follow.jsx'
 
 const twitter = require("../images/twitter.svg")
 const fran = require("../images/Fran.jpg")
@@ -200,8 +201,13 @@ export default class App extends React.Component {
 
                 <div className="borderColumn3 rows">
                     <div className="column3Left">
-                        <TextField />
+                        <div className="input3">
+                            <div className="textPad">
+                                <TextField />
+                            </div>
+                        </div>
                         <Tendencia />
+                        <Follow />
                     </div>
                 </div>
             </div>

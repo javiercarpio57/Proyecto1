@@ -145,3 +145,16 @@ $centerWidth: 39.75%;
     margin-left: 28px;
     margin-top: 5px;
 }
+
+.input3 {
+    box-sizing: border-box;
+    background: white;
+    position: sticky;
+    top: -10px;
+    height: 55px;
+    z-index: 2;
+}
+
+.textPad {
+    padding-top: 5px;
+}

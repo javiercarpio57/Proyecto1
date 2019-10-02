@@ -1,0 +1,24 @@
+$imageSize: 40px;
+
+.profileSize {
+    max-width: $imageSize;
+}
+
+.photoS {
+    max-width: $imageSize;
+    max-height: $imageSize;
+}
+
+.marginPhoto {
+    margin-left: 5px;
+    margin-right: 8px;
+}
+
+.nameFollow {
+    font-family: 'Segoe UI Bold';
+    font-size: 15.2px;
+}
+
+.userFont {
+    font-size: 15px;
+}

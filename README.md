@@ -7,7 +7,7 @@ This project consists on trying to create Twitter as identical as posible, using
 
 ## Installation
 
-First, you need to have installed nodejs:
+First, you must have installed nodejs:
 ```
 https://nodejs.org/en/
 ```
@@ -22,5 +22,7 @@ npm install
 
 Run the project with:
 ```
-npm start
+npm run build
 ```
+
+And, finally, open the index.html file located in dist folder.
