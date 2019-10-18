@@ -17,8 +17,8 @@ module.exports = {
             inject: 'body'
         }),
         new CopyWebpackPlugin([
-            {from:'src/images',to:'images'} 
-        ]), 
+            { from: 'src/images', to: 'images' }
+        ])
     ],
     module: {
         rules: [
@@ -29,11 +29,11 @@ module.exports = {
             },
             {
                 test: /\.css$/,
-                use: [ 'style-loader', 'css-loader', 'postcss-loader']
+                use: ['style-loader', 'css-loader', 'postcss-loader']
             },
             {
                 test: /\.scss$/,
-                use: [ "style-loader", "css-loader", 'postcss-loader', "sass-loader"]
+                use: ["style-loader", "css-loader", 'postcss-loader', "sass-loader"]
             },
             {
                 test: /\.(png|jpeg|jpg)$/,
