@@ -42,19 +42,22 @@ export default class Tweet extends React.Component {
                                 <div className="iconBox circle">
                                     <img className="icons" src={conversation} />
                                 </div>
-                                {this.props.comments > 0 ? <span className="gray number">{this.props.comments}</span> : <span />}
+                                {this.props.comments > 0 ? <span className="gray number">
+                                    {this.props.comments}</span> : <span />}
                             </div>
                             <div className="flex boxSizing dataBox retweet">
                                 <div className="iconBox">
                                     <img className="icons" src={retweet} />
                                 </div>
-                                {this.props.retweets > 0 ? <span className="gray number">{this.props.retweets}</span> : <span />}
+                                {this.props.retweets > 0 ? <span className="gray number">
+                                    {this.props.retweets}</span> : <span />}
                             </div>
                             <div className="flex boxSizing dataBox fav">
                                 <div className="iconBox">
                                     <img className="icons" src={fav} />
                                 </div>
-                                {this.props.favs > 0 ? <span className="gray number">{this.props.favs}</span> : <span />}
+                                {this.props.favs > 0 ? <span className="gray number">
+                                    {this.props.favs}</span> : <span />}
                             </div>
                         </div>
                     </div>

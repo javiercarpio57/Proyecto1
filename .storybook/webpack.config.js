@@ -9,6 +9,11 @@ module.exports = {
         include: path.resolve(__dirname, '../'),
       },
       {
+        test: /\.css$/,
+        use: ['style-loader', 'css-loader', 'postcss-loader', 'sass-loader'],
+        include: path.resolve(__dirname, '../'),
+      },
+      {
         test: /\.(woff|woff2|eot|ttf|otf)$/,
         use: [
             {
@@ -26,7 +31,11 @@ module.exports = {
             loader: 'svg-url-loader',
             options: {}
         }
-    }
+    },
+    {
+        test: /\.(png|jpeg|jpg)$/,
+        loader: 'url-loader'
+    },
     ],
   },
 };
