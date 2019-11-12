@@ -26,3 +26,10 @@ npm run build
 ```
 
 And, finally, open the index.html file located in dist folder.
+
+## Technologies
+
+  1. React (version: 16.9.0) - Framework based in components.
+  2. Babel (version: 7.6.0) - A JavaScript compiler.
+  3. Webpack (version: 4.39.3) - Optimize code compilation.
+  4. Lint (version: 6.3.0) - Makes the code orderly and structured.
